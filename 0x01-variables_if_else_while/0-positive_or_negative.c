@@ -3,10 +3,11 @@
 #include <stdio.h> 
 
 /** 
- * main : assigns a random number to n on every
- * execution, and prints it followed by
- * wether it is positive, negative, or a zero
+ * main - assigns a random number to n everytime 
+ * it executes, and prints it along with it's nature
+ * Return: Always 0 (Success) 
  */
+
 
 int main(void) 
 { 

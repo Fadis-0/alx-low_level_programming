@@ -2,13 +2,13 @@
 #include <stdlib.h>
 #include "main.h"
 /**
- * _strdup - duplicate to new memory space location
- * @str: char
+ * _strdup - function that returns a pointer to a newly allocated space in memory
+ * @str: character string
  * Return: 0
  */
 char *_strdup(char *str)
 {
-	char *aa;
+	char *a;
 	int i, r = 0;
 
 	if (str == NULL)
@@ -17,12 +17,12 @@ char *_strdup(char *str)
 	while (str[i] != '\0')
 		i++;
 
-	aa = malloc(sizeof(char) * (i + 1));
+	a = malloc(sizeof(char) * (i + 1));
 
-	if (aa == NULL)
+	if (a == NULL)
 		return (NULL);
 	for (r = 0; str[r]; r++)
-		aa[r] = str[r];
+		a[r] = str[r];
 
-	return (aa);
+	return (a);
 }

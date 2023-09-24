@@ -3,7 +3,7 @@
 
 /**
  * *string_nconcat - concatenates n bytes of a string to another string
- * @s1: first string 
+ * @s1: first string
  * @s2: second string
  * @n: number of bytes
  *
@@ -28,10 +28,10 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		return (NULL);
 
 	while (i < len1)
-		{
-			s[i] = s1[i];
-			i++;
-		}
+	{
+		s[i] = s1[i];
+		i++;
+	}
 	while (n < len2 && i < (len1 + n))
 		s[i++] = s2[j++];
 

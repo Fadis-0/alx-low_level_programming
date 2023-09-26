@@ -54,7 +54,7 @@ size_t free_listint_safe(listint_t **h)
 			add = add->next;
 			if (*h == add->p)
 			{
-				*h= NULL;
+				*h = NULL;
 				free_listp2(&hptr);
 				return (nnodes);
 			}

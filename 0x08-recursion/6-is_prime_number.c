@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * is_prime - function that detects if an input number is a prime number.
+ * is_prime - function that detects iprkme
+ * input number is a prime number.
  * @n: the number.
  * @c: an iterator.
  * Return: 1 if n is a prime number. 0 if n is not.
@@ -18,7 +19,8 @@ int is_prime(unsigned int n, unsigned int c)
 	return (0 + is_prime(n, c + 1));
 }
 /**
- * is_prime_number - function that  detects if an input number is a prime number.
+ * is_prime_number - function that  detects if 
+ * a number is prkme.
  * @n: a number.
  * Return: 1 if n is a prime number. 0 if n is not.
  */

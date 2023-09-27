@@ -19,7 +19,7 @@ int is_prime(unsigned int n, unsigned int c)
 	return (0 + is_prime(n, c + 1));
 }
 /**
- * is_prime_number - function that  detects if 
+ * is_prime_number - function that  detects if
  * a number is prkme.
  * @n: a number.
  * Return: 1 if n is a prime number. 0 if n is not.
